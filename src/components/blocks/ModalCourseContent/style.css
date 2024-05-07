@@ -1,0 +1,75 @@
+.modal-window {
+  display: flex;
+}
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.modal-image-wrap {
+  display: block;
+  height: 270px;
+  overflow: hidden;
+  position: relative;
+}
+
+.modal-image-wrap:before {
+  content: "";
+  position: absolute;
+  background: rgba(100, 103, 110, 0.1);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content-wrap {
+  position: relative;
+  height: 200px;
+}
+.modal-content {
+  padding: 10px 15px 30px;
+  position: absolute;
+  background: #fff;
+  border-radius: 10px;
+  width: 440px;
+  left: 50%;
+  top: -40px;
+  transform: translateX(-50%);
+  box-shadow: 0 40px 90px -5px rgba(0, 0, 0, 0.08);
+}
+
+.modal-title {
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #333;
+  min-height: 45px;
+}
+
+.modal-desc {
+  font-size: 14px;
+  color: #989898;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.modal-lessons {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 10;
+}
+
+.subscribe-error {
+  font-size: 14px;
+  font-weight: 600;
+  color: #989898;
+}
+
+.subscribe-error-star {
+  color: #f76cc6;
+  margin-right: 4px;
+}

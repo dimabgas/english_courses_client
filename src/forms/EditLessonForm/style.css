@@ -1,0 +1,7 @@
+.edit-lesson__form {
+  margin: 20px 0;
+  min-height: 500px;
+}
+.edit-lesson__form input {
+  margin-bottom: 20px;
+}

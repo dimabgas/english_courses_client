@@ -1,0 +1,39 @@
+.all-courses {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 10px;
+  align-items: flex-start;
+  align-items: stretch;
+}
+
+.all-courses-wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
+#app-wrapper > div > div.popup-wrapper > div > button {
+  margin-right: 10px;
+  z-index: 999 !important;
+  float: right;
+}
+
+#app-wrapper > div > div.popup-wrapper > div.popup-content.popup-showed {
+  width: 140px;
+  background-color: #fff;
+  z-index: 999 !important;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+#app-wrapper
+  > div
+  > div.popup-wrapper
+  > div.popup-content.popup-showed
+  > form
+  > div {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 12px;
+}

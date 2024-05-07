@@ -1,0 +1,13 @@
+.create-lesson__form input {
+  margin-bottom: 20px;
+}
+
+.create-lesson-from__btn {
+  margin-top: 20px;
+  padding: 12px;
+}
+
+.create-lesson-from__btn.disable {
+  background: #ddd;
+  pointer-events: none;
+}

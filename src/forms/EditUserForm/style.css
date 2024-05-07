@@ -1,0 +1,7 @@
+.edit-user__form {
+  margin: 20px 0;
+  min-height: 500px;
+}
+.edit-user__form input {
+  margin-bottom: 20px;
+}

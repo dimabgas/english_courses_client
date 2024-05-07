@@ -1,0 +1,21 @@
+.offline-wrap {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #3498db;
+  color: #fff;
+  z-index: 10;
+  padding: 10px 30px;
+  opacity: 0;
+  transition: 0.4s;
+}
+.offline-wrap.isDisconnected {
+  opacity: 1;
+  top: 20px;
+}
+.offline-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+}

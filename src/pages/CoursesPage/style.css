@@ -1,0 +1,17 @@
+.lessons-wrap {
+  margin: 10px;
+}
+
+.lesson-row {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-gap: 15px;
+  align-items: flex-start;
+}
+
+.lessons-list-wrap {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(0, 0, 0, 0.03);
+}

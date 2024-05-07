@@ -1,0 +1,76 @@
+.profile-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.profile-courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 15px;
+  padding: 7px 0px;
+}
+
+.profile-courses-title {
+  margin: 0;
+  color: #333;
+}
+
+.profile-courses {
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box;
+}
+
+.courses {
+  margin: 10px;
+  width: 100%;
+}
+
+.profile-sidebar__wrapper {
+  max-width: 300px;
+  min-width: 300px;
+  margin-left: 10px;
+}
+
+.filter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-search,
+.filter-search > form {
+  display: flex;
+  align-items: center;
+}
+
+.filter-search > form {
+  border-radius: 6px;
+  padding: 6px 6px;
+  background-color: #fff;
+}
+
+.filter-search > form > input {
+  width: 185px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+
+.search-icon {
+  width: 24px;
+}
+
+.profile-courses__created-button {
+  display: flex;
+  justify-content: space-between;
+  width: 265px;
+  height: 34.8px;
+}

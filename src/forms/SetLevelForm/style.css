@@ -1,0 +1,44 @@
+#app-wrapper
+  > div
+  > div.courses
+  > div.profile-courses-header
+  > div
+  > div.popup-content.popup-showed
+  > form
+  > div {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 12px;
+}
+#app-wrapper
+  > div
+  > div.courses
+  > div.profile-courses-header
+  > div
+  > div:nth-child(1)
+  > div.popup-content.popup-showed
+  > form
+  > div {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 12px;
+}
+
+#app-wrapper
+  > div
+  > div.courses
+  > div.profile-courses-header
+  > div
+  > div:nth-child(1)
+  > div.popup-content.popup-showed
+  > form
+  > div
+  > span {
+  padding-left: 4px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}

@@ -1,0 +1,17 @@
+.students-image-wrap {
+  margin-right: -10px;
+}
+
+.students-has-plus {
+  background: #82bbbd;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  border: 3px solid #fff;
+  color: #fff;
+  box-sizing: border-box;
+}

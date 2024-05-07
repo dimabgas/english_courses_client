@@ -1,0 +1,28 @@
+.add-course__from {
+  display: grid;
+  min-width: 300px;
+}
+
+.add-course__from .input-wrap {
+  margin-bottom: 10px;
+}
+
+.add-course__from .input,
+.add-course__from .select {
+  font-size: 14px;
+}
+
+.add-course__from .btn {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.add-course__textarea {
+  resize: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgb(209, 209, 209);
+  margin-bottom: 10px;
+}

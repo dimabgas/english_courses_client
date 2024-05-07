@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(249, 249, 240);
+}
+
+.body-lock {
+  overflow-y: scroll;
+  position: fixed;
+}
+
+.form-wrapper-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-link-bottom {
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  width: fit-content;
+  color: #524d61;
+}
+
+.Student {
+  background: rgb(250, 234, 162);
+  color: rgb(162, 139, 74);
+}
+.Teacher {
+  background: #93b5e2;
+  color: #5376a2;
+}
+
+.help-info-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #989898;
+}

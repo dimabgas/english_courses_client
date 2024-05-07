@@ -1,0 +1,30 @@
+.create-lesson-btn {
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+  background: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #dddddd38;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #989898a1;
+  margin: 20px 0 40px;
+  transition: 0.4s;
+  position: relative;
+}
+
+.create-lesson-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 100%;
+  height: 1px;
+  background: #dddddd4f;
+}
+
+.create-lesson-btn:hover {
+  background: #f1f1f1b7;
+  color: #989898c4;
+}

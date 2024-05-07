@@ -1,0 +1,97 @@
+.profile-wrapper {
+  min-width: 300px;
+  background: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 30px 30px -30px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  position: absolute;
+  max-width: inherit;
+  right: 0;
+}
+
+.profile-wrapper.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.profile-email {
+  font-size: 16px;
+  color: #989898;
+  margin-bottom: 5px;
+}
+
+.profile-fullName {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.profile-roles-wrapper {
+  margin: 20px 0;
+}
+
+.profile-role {
+  padding: 5px 15px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.information-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  margin: 30px 0 10px;
+}
+
+.profile-information-courses__about {
+  font-size: 14px;
+  text-align: left;
+  color: #989898;
+  letter-spacing: 0.02em;
+  line-height: 17px;
+}
+
+.profile-information-courses__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.profile-information-courses__achievements {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #989898;
+}
+
+.profile-logout {
+  width: 20px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.profile-logout:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.profile-setting,
+.profile-not-edit,
+.profile-edit {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  opacity: 0.7;
+  cursor: pointer;
+}

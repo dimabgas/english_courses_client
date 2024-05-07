@@ -1,0 +1,26 @@
+.registration-from {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-from .input-wrap {
+  margin: 5px 0;
+}
+
+.registration-from button {
+  margin-top: 15px;
+}
+
+.registration-from__select-wrap {
+  margin: 15px 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-errors {
+  transition: 1.4s;
+  margin-top: 5px;
+  margin-bottom: -2px;
+  font-size: 14px;
+  color: rgb(250, 73, 73);
+}

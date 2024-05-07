@@ -1,0 +1,32 @@
+.lessons-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lessons-item {
+  background: #fafafa;
+  padding: 20px 15px;
+  margin: 10px 0;
+  color: #989898;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 5px;
+  border: 1px solid #dddddd38;
+}
+
+.lessons-item:hover {
+  color: #f76cc6;
+}
+.lessons-item.selected {
+  color: #f76cc6;
+}
+
+.lessons-count {
+  color: #989898;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}

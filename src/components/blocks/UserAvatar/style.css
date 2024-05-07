@@ -1,0 +1,27 @@
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.avatar-wrapper {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-wrapper-xl {
+  max-width: 100px;
+  margin: 0 auto 10px;
+}
+
+.avatar-wrapper-md {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-wrapper-sm {
+  width: 30px;
+  height: 30px;
+}
